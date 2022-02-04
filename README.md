@@ -3,16 +3,14 @@
 
 Using the [Monte Carlo method](https://en.wikipedia.org/wiki/Monte_Carlo_method) (repeated random sampling to estimate some numerical result) we can estimate the value of $\pi$. To make it more fun, I wrote the code to match the classic heuristic example: throwing darts at a dart board. 
 
-### How does one estimate $\pi$ with darts? 
+### How does one estimate π with darts? 
 Imagine we have a round dart board hung up on a wall, with a square backdrop no longer than the length of the round dart board. Suppose you were able to throw darts at this board such that the dart *always* landed within the square, whether or not on the dart board. 
 
 ![dart board](https://www.i2clipart.com/cliparts/e/d/b/2/clipart-dartboard-256x256-edb2.png)
 
 Each time you throw a dart, you know whether or not it made it in on to the board.
-If we throw *a lot* of darts, then we can **estimate the area of the dart board** by taking the proportion of darts that landed on the board divided by the total number of darts thrown. This estimate gets better as more darts are thrown. If we can **estimate the area of the circular board**, and we can measure the radius, then using the formula for the area of a circle, we can estimate $\pi$
-$$A = \pi r^2 \rightarrow  \pi = A/r^2$$
+If we throw *a lot* of darts, then we can **estimate the area of the dart board** by taking the proportion of darts that landed on the board divided by the total number of darts thrown. This estimate gets better as more darts are thrown. If we can **estimate the area of the circular board**, and we can measure the radius, then using the formula for the area of a circle, we can estimate π.
  
-
 Instead of having to buy darts, we can have python throw them for us! I wrote a [small python script](https://github.com/jacksonrgwalker/pi-dart/blob/main/darts.py) that let's us play with darts (random points) on a board (the unit circle) with a backdrop (the unit square)
 
 
