@@ -1,3 +1,5 @@
+[See the post on my website here](http://jwalk.io/projects/estimating-pi)
+
 # Estimating Pi With Py
 
 
