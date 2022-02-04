@@ -90,7 +90,7 @@ area_of_unit_circle_estimate = circle_proportion_of_square * area_of_unit_square
     Wall time: 549 ms
     
 
-Since the area of circle with radius $r$ is given by $\pi r^2 $, our estimate for $\pi$ is the just the area of the unit circle, where the radius is $1$
+Since the area of circle with radius r is given by π*r^2 , our estimate for π is the just the area of the unit circle, where the radius is 1
 
 
 ```python
