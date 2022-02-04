@@ -1,7 +1,7 @@
 # Estimating Pi With Py
 
 
-Using the [Monte Carlo method](https://en.wikipedia.org/wiki/Monte_Carlo_method) (repeated random sampling to estimate some numerical result) we can estimate the value of $\pi$. To make it more fun, I wrote the code to match the classic heuristic example: throwing darts at a dart board. 
+Using the [Monte Carlo method](https://en.wikipedia.org/wiki/Monte_Carlo_method) (repeated random sampling to estimate some numerical result) we can estimate the value of π. To make it more fun, I wrote the code to match the classic heuristic example: throwing darts at a dart board. 
 
 ### How does one estimate π with darts? 
 Imagine we have a round dart board hung up on a wall, with a square backdrop no longer than the length of the round dart board. Suppose you were able to throw darts at this board such that the dart *always* landed within the square, whether or not on the dart board. 
