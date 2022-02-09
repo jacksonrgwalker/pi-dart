@@ -1,0 +1,7 @@
+name: estimating-pi-env
+channels:
+  - defaults
+dependencies:
+  - jupyterlab=3.2.4
+  - numpy=1.21.4
+  - matplotlib=3.5.0
